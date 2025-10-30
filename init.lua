@@ -237,7 +237,7 @@ rtp:prepend(lazypath)
 -- [[ Configure and install plugins ]]
 require('lazy').setup({
   'NMAC427/guess-indent.nvim', -- Detect tabstop and shiftwidth automatically
-  require 'kickstart.plugins.gitsigns',
+  require 'kickstart.plugins.gitsigns', -- Adds git related signs to the gutter, as well as utilities for managing changes
   require 'kickstart.plugins.vim-fugitive',
   require 'kickstart.plugins.which-key',
   require 'kickstart.plugins.telescope',
